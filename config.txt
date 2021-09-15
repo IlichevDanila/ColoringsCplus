@@ -1,0 +1,10 @@
+resources/in/trees.jpg
+Contrast 0.007
+RGBBalance 1.1 1 1
+GenerateSet ByClick
+SetSimplify
+ModeBlur 5 5
+ModeBlur 11 11
+SaveImage resources/out/res.png
+Border
+SaveImage resources/out/border.png
