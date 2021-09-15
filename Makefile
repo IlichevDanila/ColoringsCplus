@@ -1,6 +1,6 @@
 CC=C:\MinGW\mingw64\bin\g++
-LDFLAGS=-LSFML\lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lwinmm -lgdi32 -std=c++11
-CFLAGS=-c -std=c++11 -Iheaders -ISFML\include -DSFML_STATIC
+LDFLAGS=-LC:/SFML/SFML2.5.1/lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lwinmm -lgdi32 -std=c++11
+CFLAGS=-c -std=c++11 -Iheaders -IC:/SFML/SFML2.5.1/include -DSFML_STATIC
 
 define OBJECTFILES
 objs/main.o\
